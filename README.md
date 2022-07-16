@@ -23,7 +23,12 @@ Follow the Swagger instructions
 
 Have fun!
 
-# TODO: Testing
+# Testing
+
+```shell
+cd src/Tests/SampleApiTests
+dotnet test
+```
 
 # Cloud Setup and deployment
 
