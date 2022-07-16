@@ -25,5 +25,13 @@ Have fun!
 
 # TODO: Testing
 
-# TODO: Cloud Setup and deployment
-Azure App service running on Docker
+# Cloud Setup and deployment
+
+```shell
+cd src/SampleAPi
+docker build 
+docker run -d -p 8080:80
+```
+
+Try cloud version here: 
+https://samplewebappfortest.azurewebsites.net/swagger/index.html 

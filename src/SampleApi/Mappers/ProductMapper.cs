@@ -4,9 +4,9 @@ using SampleApi.Models;
 
 namespace SampleApi.Mappers;
 
-public class UserProfile : Profile
+public class ProductProfile : Profile
 {
-	public UserProfile()
+	public ProductProfile()
 	{
 		CreateMap<Product, ProductDto>().ReverseMap();
 	}
